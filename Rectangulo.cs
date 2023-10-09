@@ -22,6 +22,6 @@ internal class Rectangulo : Figura
 
     public override string ToString()
     {
-        return $"\nFIGURA RECTANGULO \nAltura: {this._altura} \nBase: {this._base} {base.ToString()}";
+        return $"\nFIGURA RECTANGULO \nAltura: {this._altura} \nBase: {this._base} \n{color.ToString()}";
     }
 }

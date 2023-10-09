@@ -18,6 +18,6 @@ internal class TrianguloEquilatero : Figura
 
     public override string ToString()
     {
-        return $"\nFIGURA TRIANGULO EQUILATERO \nLado: {this._longitudLado} {base.ToString()}";
+        return $"\nFIGURA TRIANGULO EQUILATERO \nLado: {this._longitudLado} \n{color.ToString()}";
     }
 }

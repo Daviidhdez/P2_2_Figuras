@@ -18,7 +18,7 @@ internal class Circulo : Figura
 
     public override string ToString()
     {
-        return $"\nFIGURA CIRCULO \nRadio: {this._radio} {base.ToString()}";
+        return $"\nFIGURA CIRCULO \nRadio: {this._radio} \n{color.ToString()}";
     }
 }
 
